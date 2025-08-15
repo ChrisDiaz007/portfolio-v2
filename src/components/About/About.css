@@ -1,0 +1,68 @@
+.about_container {
+  /* height: 40vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.about_top_container {
+  display: flex;
+  gap: 40px;
+}
+
+.about_first_selection {
+  display: flex;
+  position: relative;
+}
+
+.aboutMe_image {
+  width: 400px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.circle-text {
+  animation: spin 12s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Engineer_emoji {
+  position: absolute;
+  right: -24px; /* negative = slightly outside the image */
+  bottom: -24px; /* tweak both to taste */
+  z-index: 2;
+
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px; /* keeps the circular text from clipping */
+}
+
+.about_second_selection {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 12px;
+}
+
+.about_second_selection h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(32, 81, 141, 0.982);
+}
+
+.about_second_selection h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about_second_selection p {
+  font-weight: lighter;
+}

@@ -1,0 +1,12 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* keeps it above other content */
+  background: white; /* so content doesn't show through */
+  padding: 30px 40px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}

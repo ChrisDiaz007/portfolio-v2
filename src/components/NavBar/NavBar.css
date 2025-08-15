@@ -1,0 +1,9 @@
+.header_text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar_clicks {
+  gap: 20px;
+  font-weight: bold;
+}
